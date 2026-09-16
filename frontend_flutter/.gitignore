@@ -1,0 +1,4 @@
+.dart_tool
+build
+.firebase
+flutter_export_environment.sh

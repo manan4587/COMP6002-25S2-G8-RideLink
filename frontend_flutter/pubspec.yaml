@@ -1,0 +1,22 @@
+name: ridelink_real_flutter
+description: RideLink Flutter frontend connected to backend, Firebase Auth, and Mapbox backend routes.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: any
+  firebase_core: any
+  firebase_auth: any
+  socket_io_client: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,49 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node / Backend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+frontend_flutter/android/.gradle/
+frontend_flutter/android/local.properties
+frontend_flutter/android/app/debug/
+frontend_flutter/android/app/profile/
+frontend_flutter/android/app/release/
+
+# iOS
+frontend_flutter/ios/Pods/
+frontend_flutter/ios/.symlinks/
+frontend_flutter/ios/Flutter/ephemeral/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python if backend uses Python
+__pycache__/
+*.pyc
+venv/
+.venv/
