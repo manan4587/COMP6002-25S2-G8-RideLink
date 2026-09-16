@@ -23,7 +23,7 @@ flutter run -d chrome
 ## Add Mapbox
 Open `backend/.env` and add:
 ```env
-MAPBOX_ACCESS_TOKEN=your_token_here
+MAPBOX_ACCESS_TOKEN=your_token_here (Token ABout to get hcngaed)
 ```
 Test:
 `http://localhost:5000/api/v1/mapbox/route?start=Landsdale WA&destination=Curtin University WA`
