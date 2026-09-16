@@ -1,4 +1,4 @@
-# RideLink Full Working Code: Flutter + Backend + Firebase + Mapbox
+# RideLink 
 
 Folders:
 - `backend` = Node.js Express API with Firebase Admin token verification and Mapbox Geocoding/Directions.
